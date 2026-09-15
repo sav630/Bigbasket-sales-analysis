@@ -8,31 +8,35 @@ Repository Structure
 
 Project Files
 
-generate_data.py — Script used to generate the project database and raw data exports.
+generate_data.py
 
-bigbasket_capstone.db — SQLite database used for the SQL analysis.
+bigbasket_capstone.db
 
-orders_raw.csv — Raw order data used in Part 4.
+orders_raw.csv
 
-products.csv — Product and supplier reference data.
+products.csv
 
-verify.sql — SQL verification queries.
+verify.sql
 
-01_foundations.sql — Part 1 foundational SQL queries.
+01_foundations.sql
 
-02_aggregation_joins.sql — Aggregation and join queries.
+02_aggregation_joins.sql
 
-03_reporting.sql — Reporting SQL queries.
+03_reporting.sql
 
-monthly_category_revenue.csv — Exact CSV export used for Parts 2 and 3.
+monthly_category_revenue.csv
 
-part2_spreadsheet.xlsx — Spreadsheet cross-check workbook.
+part2_spreadsheet.xlsx
 
-analysis.ipynb — Part 4 Python/Pandas analysis notebook.
+analysis.ipynb
 
-ai_log.md — AI-assisted prompts and verification log.
+ai_log.md
 
-DATA_STORY.md — Dashboard data story and business recommendations.
+DATA_STORY.md
+
+Tableau Public Dashboard
+
+View the live Tableau Public dashboard
 
 Tableau Public Dashboard
 
