@@ -6,33 +6,37 @@ This project analyzes BigBasket sales data using Python, SQL, a spreadsheet, and
 
 Repository Structure
 
-bigbasket_capstone.db
+Project Files
 
-orders_raw.csv
+generate_data.py — Script used to generate the project database and raw data exports.
 
-products.csv
+bigbasket_capstone.db — SQLite database used for the SQL analysis.
 
-generate_data.py
+orders_raw.csv — Raw order data used in Part 4.
 
-01_foundations.sql
+products.csv — Product and supplier reference data.
 
-02_aggregation_joins.sql
+verify.sql — SQL verification queries.
 
-03_reporting.sql
+01_foundations.sql — Part 1 foundational SQL queries.
 
-verify.sql
+02_aggregation_joins.sql — Aggregation and join queries.
 
-monthly_category_revenue.csv
+03_reporting.sql — Reporting SQL queries.
 
-part2_spreadsheet.xlsx
+monthly_category_revenue.csv — Exact CSV export used for Parts 2 and 3.
 
-DATA_STORY.md
+part2_spreadsheet.xlsx — Spreadsheet cross-check workbook.
 
-ai_log.md
+analysis.ipynb — Part 4 Python/Pandas analysis notebook.
 
-Part4_notebook.ipynb
+ai_log.md — AI-assisted prompts and verification log.
 
-README.md
+DATA_STORY.md — Dashboard data story and business recommendations.
+
+Tableau Public Dashboard
+
+View the live Tableau Public dashboard
 
 
 Regenerating the Database and Raw Data
