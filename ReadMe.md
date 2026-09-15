@@ -28,7 +28,7 @@ monthly_category_revenue.csv
 
 part2_spreadsheet.xlsx
 
-analysis.ipynb
+[analysis.ipynb](./analysis.ipynb)
 
 ai_log.md
 
