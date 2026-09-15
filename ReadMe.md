@@ -6,33 +6,22 @@ This project analyzes BigBasket sales data using Python, SQL, a spreadsheet, and
 
 Repository Structure
 
-Project Files
+## Project Files
 
-generate_data.py
+- [generate_data.py](./generate_data.py)
+- [bigbasket_capstone.db](./bigbasket_capstone.db)
+- [orders_raw.csv](./orders_raw.csv)
+- [products.csv](./products.csv)
+- [verify.sql](./verify.sql)
+- [01_foundations.sql](./01_foundations.sql)
+- [02_aggregation_joins.sql](./02_aggregation_joins.sql)
+- [03_reporting.sql](./03_reporting.sql)
+- [monthly_category_revenue.csv](./monthly_category_revenue.csv)
+- [part2_spreadsheet.xlsx](./part2_spreadsheet.xlsx)
+- [analysis.ipynb](./analysis.ipynb)
+- [ai_log.md](./ai_log.md)
+- [DATA_STORY.md](./DATA_STORY.md)
 
-bigbasket_capstone.db
-
-orders_raw.csv
-
-products.csv
-
-verify.sql
-
-01_foundations.sql
-
-02_aggregation_joins.sql
-
-03_reporting.sql
-
-monthly_category_revenue.csv
-
-part2_spreadsheet.xlsx
-
-[analysis.ipynb](./analysis.ipynb)
-
-ai_log.md
-
-DATA_STORY.md
 
 Tableau Public Dashboard
 
@@ -102,9 +91,10 @@ The workbook contains the imported monthly data, category targets, pivot table, 
 
 Part 3 — Tableau Public
 
-Live Tableau Public dashboard:
+## Tableau Public Dashboard
 
-{"fallbackMarkdown":"BigBasket Sales Dashboard","reference":{"matched_text":"","prefix":null,"start_idx":2161,"end_idx":2350,"safe_urls":[],"refs":[],"alt":"BigBasket Sales Dashboard","prompt_text":"BigBasket Sales Dashboard","type":"url","logo":null,"layout":null,"title":"BigBasket Sales Dashboard","item":{"title":"BigBasket Sales Dashboard","url":"https://public.tableau.com/views/BigBasketSalesDashboard/BigBasketSalesDashboard?%3Alanguage=en-US&%3Asid=&%3Aredirect=auth&%3Adisplay_count=n&%3Aorigin=viz_share_link&utm_source=chatgpt.com","attribution":"public.tableau.com","pub_date":null,"snippet":null,"attribution_segments":null,"supporting_websites":null,"refs":[],"hue":null,"attributions":null}},"showLoginRequiredCard":false}
+[View the live Tableau Public dashboard](https://public.tableau.com/views/BigBasketSalesDashboard/BigBasketSalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 
 The dashboard contains the monthly revenue chart, category revenue chart, four KPI cards, target-based category colors, and an interactive category filter.
 
